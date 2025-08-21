@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 555fe5893241bcd409a4ab61db9c5154
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - parentGroup: {fileID: 1875527161542836799, guid: 547b4a8ed34b127439e29a20a616f972, type: 3}
+  - spawnReviewSheet: {fileID: 3628128605374667301, guid: 9db9aafe0aa35b144ba52124ea6b4495, type: 3}
+  - mainDataset: {fileID: 7319645343446152835, guid: 558eab7c37e83bc4a8d4ada849ccf666, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

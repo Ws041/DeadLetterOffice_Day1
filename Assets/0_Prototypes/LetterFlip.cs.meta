@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f95c69d65d6b5684b86b0b74c66be9c1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _otherPageFlip: {instanceID: 0}
+  - _leftFlip: {instanceID: 0}
+  - _rightFlip: {instanceID: 0}
+  - _mainDataset: {fileID: 7319645343446152835, guid: 558eab7c37e83bc4a8d4ada849ccf666, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

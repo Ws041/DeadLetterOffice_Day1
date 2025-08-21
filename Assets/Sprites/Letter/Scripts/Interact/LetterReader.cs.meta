@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 092c5052b4ca593408e7e7d8bbbd4421
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - LetterTextbox: {fileID: 4663592167640597431, guid: 6e12b9badbc4ee14b92b8c583705d97d, type: 3}
+  - MainDataset: {fileID: 7319645343446152835, guid: 558eab7c37e83bc4a8d4ada849ccf666, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

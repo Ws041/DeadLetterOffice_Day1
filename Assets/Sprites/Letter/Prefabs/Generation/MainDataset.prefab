@@ -1,0 +1,561 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6011763931226030858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 261106454117936266}
+  - component: {fileID: 7319645343446152835}
+  m_Layer: 0
+  m_Name: MainDataset
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &261106454117936266
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6011763931226030858}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.98786855, y: 0.027798492, z: 0.05700469}
+  m_LocalScale: {x: 8.038711, y: 8.038711, z: 8.038711}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7319645343446152835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6011763931226030858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fab8302afb457544b9031f8b6ab97371, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RepublikaData:
+    RepublikaMail:
+    - {fileID: 2721703834279190435, guid: 8dd920f1894986747bcd293c78e62409, type: 3}
+    - {fileID: 2721703834279190435, guid: c9aaae9f5decfd945acb31a38834e926, type: 3}
+    RepublikaStamps:
+    - {fileID: 3906983877411002814, guid: fd16130de66facf4da06678ae56219f1, type: 3}
+    - {fileID: 7867191933981076543, guid: cfe15a3528edd3b4b9b54fc56fbb855b, type: 3}
+    - {fileID: 7867191933981076543, guid: bdc25586311a52a4d9a373200d5ac37a, type: 3}
+    - {fileID: 3906983877411002814, guid: afd0b161fae9c1d4a9fb345861ff14b8, type: 3}
+    - {fileID: 3906983877411002814, guid: 0ecad7f83f457564b99a2fbc8a5ab051, type: 3}
+    - {fileID: 3906983877411002814, guid: b890ba294d2b76a44a9f33d7fb6e053f, type: 3}
+    - {fileID: 3906983877411002814, guid: 91282ca8c8ba96b448d8b860f2c5b6d0, type: 3}
+    - {fileID: 3906983877411002814, guid: 7b5d105c1666ad74782257cf57f71db8, type: 3}
+    RepublikaLetters:
+    - {fileID: 2419713819878937992, guid: 3b3c7033ce775284b8a4fdf55439f296, type: 3}
+    - {fileID: 2419713819878937992, guid: 4a97aaae972642548b01221d1018bc61, type: 3}
+    provinceList:
+    - Priena
+    - Volknau
+    - Daravoy
+    - Reziva
+    - Discard
+    collectStampsFromProvincesClass:
+    - provinceName: Priena
+      provinceStamp:
+      - {fileID: 3906983877411002814, guid: fd16130de66facf4da06678ae56219f1, type: 3}
+      - {fileID: 7867191933981076543, guid: cfe15a3528edd3b4b9b54fc56fbb855b, type: 3}
+    - provinceName: Volknau
+      provinceStamp:
+      - {fileID: 7867191933981076543, guid: bdc25586311a52a4d9a373200d5ac37a, type: 3}
+      - {fileID: 3906983877411002814, guid: afd0b161fae9c1d4a9fb345861ff14b8, type: 3}
+    - provinceName: Daravoy
+      provinceStamp:
+      - {fileID: 3906983877411002814, guid: 0ecad7f83f457564b99a2fbc8a5ab051, type: 3}
+      - {fileID: 3906983877411002814, guid: b890ba294d2b76a44a9f33d7fb6e053f, type: 3}
+    - provinceName: Reziva
+      provinceStamp:
+      - {fileID: 3906983877411002814, guid: 91282ca8c8ba96b448d8b860f2c5b6d0, type: 3}
+      - {fileID: 3906983877411002814, guid: 7b5d105c1666ad74782257cf57f71db8, type: 3}
+    - provinceName: Discard
+      provinceStamp:
+      - {fileID: 3906983877411002814, guid: 75d5e2eb6d32b5749981d95a0752c130, type: 3}
+      - {fileID: 3906983877411002814, guid: 403430010d4965949819842d896da8ee, type: 3}
+    RepublikaMail_Parameters_Continuous:
+    - 1.059
+    - 0.766
+    - 0.478
+    - 0.41
+    - 0.404
+    - 0.675
+    - 0.31
+    - 0.104
+    mailBase: {fileID: 0}
+  GreschnovaData:
+    GreschnovaMail:
+    - {fileID: 2721703834279190435, guid: 13c029440118119449aeb084221b0ec2, type: 3}
+    - {fileID: 2721703834279190435, guid: 277eec29b39e65a43822b22d3282efb0, type: 3}
+    GreschnovaStamps:
+    - {fileID: 3906983877411002814, guid: 5d1ee1741a8dfd94793a8849eafffbfe, type: 3}
+    - {fileID: 3906983877411002814, guid: 9bbb26be17a52c845aa87d0616efbefb, type: 3}
+    - {fileID: 3906983877411002814, guid: 02716ef187b8f4b449735f397bd8a6f2, type: 3}
+    - {fileID: 3906983877411002814, guid: c5c7d105ddc60d94ba527c728d216c58, type: 3}
+    - {fileID: 3906983877411002814, guid: bc48cbbe806df5e41a7cb5dc10812bf3, type: 3}
+    - {fileID: 3906983877411002814, guid: 3b4cfac2a4ceab84abeceb5df342e9f3, type: 3}
+    - {fileID: 3906983877411002814, guid: cce15dbe9da30cf48a56f4339ce12490, type: 3}
+    - {fileID: 3906983877411002814, guid: 324437ec663873447a5d87c8ae0e5138, type: 3}
+    GreschnovaLetters:
+    - {fileID: 2419713819878937992, guid: 990a1ade87da5084fb1b91ba0e379498, type: 3}
+    GreschnovaLetters_torn:
+    - {fileID: 2419713819878937992, guid: 42e1fafefa13c2d4cae2ce34a3c78cf2, type: 3}
+    GreschnovaMail_Parameters_Continuous:
+    - 0.949
+    - 0.722
+    - -0.468
+    - -0.424
+    - 0.457
+    - 0.661
+    - -0.867
+    - -0.762
+    mailBase: {fileID: 0}
+    provinceList:
+    - St. Siesta
+    - Borcova
+    - Bokosnoy
+    - Parakivka
+    Day1_SpecialGreschnovaLetter: "   If this reaches you, burn it after reading.\n  
+      The cannons woke us again last night. They\u2019re shelling the docks now\u2014not
+      just the barracks. Oh, Dmitri, you can hardly recognize the Borcova we grew
+      up in. It is ash. His Majesty's Guards seized every vessel \u2014 fishing trawlers,
+      ferries, even our old Father's <i>Svetlana</i>.\n   Marta and the girls are
+      hiding in the cellar of the salt warehouse (you know the one), but the patrols
+      grow bolder.\n   ...\n   I beg you: use your influence. A transit pass, a bribe,
+      anything to get them across the river to Reziva. \"Don't lie to me. I know
+      you have immense connections there in Priena.\n   We can pay. Not in coin (they\u2019ve
+      taken that), but in what Borcova once prized: the St. Siesta\u2019s blueprints
+      you asked about. Get us out, and they\u2019re yours. \n   Meet me at the 'Starling.'
+      The one by Old Kraken's Reef. Use the abandoned road to get there.\n   Come
+      alone. If we\u2019re not there by dawn, assume the worst."
+    collectStampsFromProvincesClass:
+    - provinceName: St. Siesta
+      provinceStamp:
+      - {fileID: 3906983877411002814, guid: 5d1ee1741a8dfd94793a8849eafffbfe, type: 3}
+      - {fileID: 3906983877411002814, guid: 9bbb26be17a52c845aa87d0616efbefb, type: 3}
+    - provinceName: Borcova
+      provinceStamp:
+      - {fileID: 3906983877411002814, guid: 02716ef187b8f4b449735f397bd8a6f2, type: 3}
+      - {fileID: 3906983877411002814, guid: c5c7d105ddc60d94ba527c728d216c58, type: 3}
+    - provinceName: Bokosnoy
+      provinceStamp:
+      - {fileID: 3906983877411002814, guid: bc48cbbe806df5e41a7cb5dc10812bf3, type: 3}
+      - {fileID: 3906983877411002814, guid: 3b4cfac2a4ceab84abeceb5df342e9f3, type: 3}
+    - provinceName: Parakivka
+      provinceStamp:
+      - {fileID: 3906983877411002814, guid: cce15dbe9da30cf48a56f4339ce12490, type: 3}
+      - {fileID: 3906983877411002814, guid: 324437ec663873447a5d87c8ae0e5138, type: 3}
+  KastavyeData:
+    KastavyeMail:
+    - {fileID: 2721703834279190435, guid: 047b3688f6273b64587e70fc1f093f4b, type: 3}
+    KastavyeStamps:
+    - {fileID: 3906983877411002814, guid: 1bbde5d9fc408f04ba0fdfeff163869c, type: 3}
+    - {fileID: 3906983877411002814, guid: dc34010ac13972e48893e0b3ac52da1a, type: 3}
+    - {fileID: 3906983877411002814, guid: 0391db6384705eb428225216b5bdbfac, type: 3}
+    - {fileID: 3906983877411002814, guid: 600e7d0671a15844dbf7b89db01bfd53, type: 3}
+    KastavyeLetters: []
+    provinceList:
+    - Bel Antienne
+    - Vayenne
+    collectStampsFromProvincesClass:
+    - provinceName: Bel Antienne
+      provinceStamp:
+      - {fileID: 3906983877411002814, guid: 1bbde5d9fc408f04ba0fdfeff163869c, type: 3}
+      - {fileID: 3906983877411002814, guid: dc34010ac13972e48893e0b3ac52da1a, type: 3}
+    - provinceName: Vayenne
+      provinceStamp:
+      - {fileID: 3906983877411002814, guid: 0391db6384705eb428225216b5bdbfac, type: 3}
+      - {fileID: 3906983877411002814, guid: 600e7d0671a15844dbf7b89db01bfd53, type: 3}
+    KastavyeMail_Parameters_Continuous:
+    - 1.041
+    - 0.976
+    - 0.506
+    - 0.461
+    mailBase: {fileID: 0}
+  LetterContentsData:
+    firstNames:
+    - Miron
+    - Darya
+    - Yeva
+    - Kir
+    - Gora
+    - Valeriy
+    - Lev
+    - Anastasiya
+    - Aksinya
+    - Apostol
+    - Natasha
+    - Sergei
+    - Zhanna
+    - Zinoviya
+    - Grigoriy
+    - Alyosha
+    - Rolan
+    - Belova
+    - Roza
+    - Iolanta
+    - Andrei
+    - Ipatiy
+    - Vasily
+    - Vasya
+    - Yuri
+    - Yustina
+    - Irinushka
+    - Pavel
+    - Petre
+    - Viktor
+    - Raisa
+    - Avdotia
+    - Dima
+    - Patya
+    - Stephan
+    - Demya
+    - Augustin
+    - Maksim
+    - Zinoviy
+    - Boris
+    - Matvei
+    - Savya
+    - Sasha
+    - Petya
+    - Vaughn
+    - Volkovi
+    - Emorlai
+    - Yaroslav
+    - Grisha
+    - Matryosha
+    - Raisa
+    - Gavriila
+    - Klara
+    - Larissa
+    - Alyona
+    - Klavdiya
+    - Yelena
+    - Makarova
+    - Nonna
+    - Klava
+    - Irina
+    - Magdalina
+    - Aksinya
+    - Talya
+    - Favora
+    - Rosi
+    - Lyuba
+    - Pelageya
+    - Vlad
+    - Vladima
+    - Luka
+    - Stepan
+    - Shura
+    - Vasilieva
+    - Magdalene
+    - Achima
+    - Ebbe
+    - Sophia
+    - Karla
+    - Liesl
+    - Erma
+    - Fritz
+    - Fitzgerald
+    - Adalinda
+    - Heiden
+    - Rosamond
+    - Sigi
+    - Lorelei
+    - Pierre
+    - Albain
+    - Tristan
+    - Leona
+    - Antonin
+    - Severin
+    - Alphonse
+    - Ace
+    - Rodrigue
+    - Jeremie
+    - Arrok
+    - Quinton
+    - Sterling
+    - Leandre
+    - Beaumont
+    - Jeremie
+    - Otan
+    - "\xC9mile"
+    - Bartholomieu
+    - Urbain
+    - Pierres
+    - Yves
+    - Fay
+    - Claude
+    - Etienne
+    - Cesaire
+    - Saphau
+    - Alain
+    - Geraud
+    - Corin
+    - Nihel
+    - Felix
+    - Sylvain
+    - Paschal
+    - Julian
+    - Julienne
+    - Adolphe
+    - Salomon
+    - Raimond
+    - Alard
+    - Napoli
+    - Aurele
+    - Stuart
+    - Percevel
+    - Sylvestre
+    - Acelet
+    - Liliane
+    - Magali
+    - Margaux
+    - Bonnie
+    - Bonnet
+    - Rosine
+    - Cecile
+    - Dione
+    - Berdine
+    - Andree
+    - Idelle
+    - Regine
+    - Heloise
+    - Sidonie
+    - Evonnie
+    - Cerise
+    - Christelle
+    - Cristina
+    - Matilde
+    - Mireio
+    - Iseult
+    - Blanche
+    - Helewise
+    - Emmy
+    - Sacha
+    - Edith
+    - Finch
+    - Eda
+    - Ena
+    - Dianne
+    - Titania
+    - Amorette
+    - Sebastienne
+    - Ygraine
+    - Amarante
+    - Gaelle
+    - Lillian
+    - Cyrille
+    - Celeste
+    - Tasse
+    - Morgause
+    - Regine
+    - Dennel
+    - Charron
+    - Elisabetha
+    - Faustine
+    - Dmitri
+    lastNames:
+    - Chevalier
+    - Gosselin
+    - Fontaine
+    - Martin
+    - Rayer
+    - Rabien
+    - Roussel
+    - Jacques
+    - Linville
+    - Marine
+    - Porcher
+    - Young
+    - Service
+    - Faure
+    - Fourier
+    - Duval
+    - Travere
+    - Mercier
+    - Belmont
+    - Tide
+    - Rousseau
+    - Chaput
+    - Tran
+    - Olivier
+    - Janvier
+    - Mathieu
+    - Blanc
+    - Zaytsev
+    - Vasiliev
+    - Stepanova
+    - Borisov
+    - Gusteau
+    - Aleks
+    - Sokolov
+    - Sasha
+    - Semenova
+    - Kuznet
+    - Kulikov
+    - Zatyse
+    - Morozova
+    - Ilina
+    - Belova
+    - Korolev
+    - Tarasov
+    - Baranov
+    - Kiselev
+    - Alexeev
+    - Makarov
+    - Grigorev
+    - Semyon
+    - Volkov
+    - Vasilieva
+    - Popoa
+    - Baranova
+    - Sergeeva
+    - Frolova
+    - Dmitrieva
+    - Koroleva
+    - Soloveva
+    - Peraska
+    - Peralta
+    - Antonia
+    - Antonokiv
+    - Adamic
+    - Alekseyev
+    - Benes
+    - Beras
+    - Cerna
+    - Cerny
+    - Chavdarova
+    - Dragov
+    - Dragovini
+    - Fedorenko
+    - Fedorov
+    - Filip
+    - Gasper
+    - Genov
+    - Gorski
+    - Horace
+    - Smith
+    - Ilic
+    - Chanty
+    - Iliev
+    - Isaev
+    - Isakova
+    - Ivanova
+    - Ivanovic
+    - Jahua
+    - Ivov
+    - Ivano
+    - Jalen
+    - Kafka
+    - Kaspar
+    - Kavaliova
+    - Kavaly
+    - Kiesk
+    - Klement
+    - Kravets
+    - Kyssa
+    - Kysela
+    - Laska
+    - Marek
+    - Marinova
+    - Markov
+    - Nguyen
+    - Markova
+    - Maroz
+    - Markovic
+    - Martinov
+    - Masek
+    - Mateev
+    - Medev
+    - Medeya
+    - Michalska
+    - Naumov
+    - Milic
+    - Moravec
+    - Morakova
+    - Navratil
+    - Nemec
+    - Nikolov
+    - Niccolo
+    - Novikov
+    - Orlov
+    - Pavloka
+    - Pavlovic
+    - Pavlovsky
+    - Peric
+    - Pekorvic
+    - Peskova
+    - Petrenko
+    - Pentric
+    - Petrov
+    - Popov
+    - Radev
+    - Radic
+    - Rehova
+    - Reznic
+    - Romanov
+    - Rudaski
+    - Ryab
+    - Rye
+    - Saric
+    - Sergeev
+    - Sevcik
+    - Sikora
+    - Simek
+    - Simeonov
+    - Skala
+    - Sitco
+    - Slako
+    - Sokolov
+    - Stanek
+    - Stefan
+    - Tsera
+    - Tomov
+    - Tomic
+    - Utkina
+    - Vacek
+    - Utkin
+    - Valent
+    - Valoska
+    - Vancheva
+    - Vanchev
+    - Vaneva
+    - Vasylyk
+    - Vesela
+    - Vysiliv
+    - Vidmar
+    - Vidomic
+    - Vlasak
+    - Vinkovic
+    - Wilk
+    - Yanev
+    - Yvanna
+    - Yegorov
+    - Yegora
+    - Zajic
+    - Zajac
+    - Zayzetsa
+    - Zelenko
+    - Zelenka
+    - Levi
+    - Amiranda
+    - Zukov
+    - Zoric
+    - Zora
+    - Zelinski
+  universalSize: 3.3
