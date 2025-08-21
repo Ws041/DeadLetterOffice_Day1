@@ -1,5 +1,5 @@
 # Dead Letter Office
-DOWNLOAD TO PLAY DEMO HERE: https://ducktran.itch.io/dead-letter-office 
+DOWNLOAD TO PLAY DEMO HERE: https://ducktran.itch.io/dead-letter-office  
 
 # About Game
 **Dead Letter Office** is a point-and-click documents-inspection style game about sorting through Republika's dead letters, reassigning names, and learning about the tales of people who are living under two nations at war. 
