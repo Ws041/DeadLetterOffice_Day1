@@ -17,7 +17,8 @@ Names such as Republika, Greschnova, and Kastavye refer to the three major natio
 ## Procedural Generation Scripts
 An important aspect of this game is its procedural generation system. To view and read them, go to: <br> <br>
 [**Assets > Sprites > Letter > Scripts > Generate**](https://github.com/KimHaAnhTran/DeadLetterOffice/tree/main/Assets/Sprites/Letter/Scripts/Generate) <br>
-_MainDataset.cs_ holds all data concerning letter contents, nations, provinces, names, and dialogues. <br>
-_MailGenerator.cs_ handles all procedural mail and stamp generation. <br><br>
+_[MainDataset.cs](https://github.com/KimHaAnhTran/DeadLetterOffice/blob/main/Assets/Sprites/Letter/Scripts/Generate/MainDataset.cs)_ holds all data concerning letter contents, nations, provinces, names, and dialogues. <br>
+_[MailGenerator.cs](https://github.com/KimHaAnhTran/DeadLetterOffice/blob/main/Assets/Sprites/Letter/Scripts/Generate/MailGenerator.cs)_ handles all procedural mail and stamp generation. <br><br>
 [**Assets > Sprites > Letter > Scripts > Interact**](https://github.com/KimHaAnhTran/DeadLetterOffice/tree/main/Assets/Sprites/Letter/Scripts/Interact) <br>
-_LetterReader.cs_ handles all letter randomized content generation based on the mail sender's nation.  <br>
+_[LetterReader.cs](https://github.com/KimHaAnhTran/DeadLetterOffice/blob/main/Assets/Sprites/Letter/Scripts/Interact/LetterReader.cs)_ handles all randomized letter content generation based on the mail sender's nation.  <br>
+_[MailOpener.cs](https://github.com/KimHaAnhTran/DeadLetterOffice/blob/main/Assets/Sprites/Letter/Scripts/Interact/MailOpener.cs)_ handles mail interaction behavior, including letter instantiation on [Tab] key press.
