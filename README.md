@@ -1,4 +1,4 @@
-# Dead-Letter-Office
+# Dead Letter Office
 DOWNLOAD TO PLAY DEMO HERE: https://ducktran.itch.io/dead-letter-office 
 
 # About Game
