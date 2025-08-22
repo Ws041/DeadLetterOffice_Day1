@@ -15,6 +15,7 @@ Dead Letter Office implements procedural generation (to generate a unique mail, 
 * Procedurally generated mails and letters that are unique in content, stamps, sender, and receiver each time.
 * Accuracy-checking and penalization system.
 * Dynamic textbox system, adjustable to length of text.
+* Flip pages system. 
 # Accessing Scripts & Art Assets
 **Assets > Sprites** <br>
 Everything is organized by the type of in-game object. For example, a letter asset will have its own folder that includes all its associated art, animations, and C# scripts. <br>
