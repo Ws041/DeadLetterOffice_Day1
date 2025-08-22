@@ -1,3 +1,4 @@
+![me](https://img.itch.zone/aW1hZ2UvMzY1ODMzNy8yMTc3MDA4Mi5naWY=/original/asj4d7.gif)
 # Dead Letter Office
 DOWNLOAD TO PLAY DEMO HERE: https://ducktran.itch.io/dead-letter-office  
 
@@ -5,7 +6,6 @@ DOWNLOAD TO PLAY DEMO HERE: https://ducktran.itch.io/dead-letter-office
 **Dead Letter Office** is a point-and-click documents-inspection style game about sorting through Republika's dead letters, reassigning names, and learning about the tales of people who are living under two nations at war. Players have to cross-reference ducments and fill in the name, nation, and province of the sender and the receiver. <br>
 Drag-and-drop documents to move them around. Press [Tab] to open and read letter. Click on various objects around the screen in order to check the accuracy of the letters. <br>
 <br>
-![me](https://img.itch.zone/aW1hZ2UvMzY1ODMzNy8yMTc3MDA4Mi5naWY=/original/asj4d7.gif)
 <br>
 ## Background
 The game is made in Unity 2D as part of a solo personal project, where I set out to study documents-inspection games such as Papers, Please.<br>
