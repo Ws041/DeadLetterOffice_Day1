@@ -15,7 +15,7 @@ Dead Letter Office implements procedural generation (to generate a unique mail, 
 Everything is organized by the type of in-game object. For example, a letter asset will have its own folder that includes all its associated art, animations, and C# scripts. <br>
 Names such as Republika, Greschnova, and Kastavye refer to the three major nations inside of the game's worldbuilding. The player works at a dead letter office in Republika.
 ## Procedural Generation Scripts
-An important aspect of this game is its procedural generation system. _MainDataset.cs_ stores all prefabs of mail types, stamps, and letters to be pieced together when a new mail is generated. Each nation has its own unique mail color, shape, and letter content. To view and read this system, go to: <br> <br>
+An important aspect of this game is its procedural generation system. _MainDataset.cs_ stores all prefabs of mail types, stamps, and letters to be pieced together when a new mail is generated. Each nation has its own unique mail color, shape, and letter content. There are methods to instantiate custom mails, thus is weighing probability. To view and read this system, go to: <br> <br>
 [**Assets > Sprites > Letter > Scripts > Generate**](https://github.com/KimHaAnhTran/DeadLetterOffice/tree/main/Assets/Sprites/Letter/Scripts/Generate) <br>
 _[MainDataset.cs](https://github.com/KimHaAnhTran/DeadLetterOffice/blob/main/Assets/Sprites/Letter/Scripts/Generate/MainDataset.cs)_ holds all data concerning letter contents, nations, provinces, names, and dialogues. <br>
 _[MailGenerator.cs](https://github.com/KimHaAnhTran/DeadLetterOffice/blob/main/Assets/Sprites/Letter/Scripts/Generate/MailGenerator.cs)_ handles all procedural mail and stamp generation. <br><br>
