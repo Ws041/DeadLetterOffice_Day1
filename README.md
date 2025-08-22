@@ -9,7 +9,7 @@ Drag-and-drop documents to move them around. Press [Tab] to open and read letter
 <br>
 ## Background
 The game is made in Unity 2D as part of a solo personal project, where I set out to study documents-inspection games such as Papers, Please.<br>
-Dead Letter Office implements procedural generation (to generate a unique mail, stamp, and letter contents every time). 
+As of currently, Dead Letter Office's gameplay consists of Day 1 out of 8 Days. 
 ## Features
 * Drag and drop documents across the screen, placing them on top of the pile.
 * Procedurally generated mails and letters that are unique in content, stamps, sender, and receiver each time.
