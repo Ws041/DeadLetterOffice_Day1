@@ -21,7 +21,11 @@ As of now, Dead Letter Office's gameplay consists of Day 1 out of 8 Days.
 Everything is organized by the type of in-game object. For example, a letter asset will have its own folder that includes all its associated art, animations, and C# scripts. <br>
 Names such as Republika, Greschnova, and Kastavye refer to the three major nations inside of the game's worldbuilding. The player works at a dead letter office in Republika.
 ## Procedural Generation Scripts
-An important aspect of this game is its procedural generation system. _MainDataset.cs_ stores all prefabs of mail types, stamps, and letters to be pieced together when a new mail is generated. Each nation has its own unique mail color, shape, and letter content. There are methods to instantiate custom mails, thus is weighing probability. To view and read this system, go to: <br> <br>
+An important aspect of this game is its procedural generation system. <br>
+* _MainDataset.cs_ stores all prefabs of mail types, stamps, and letters to be pieced together. Each nation has its own unique mail color, shape, and letter content.
+* When the game loop starts, _Mailgenerator.cs_ randomzies the mail's nation (on Day 1, the nation is always Republika until the last mail, which is from Greschnova). Then the generator pulls a randomized prefab from the nation's mail prefab list.
+* A random province of that nation will be chosen, then a random stamp will be pulled from that province's stamp prefab list. The mail is instantiated first, then the stamp is instantiated as a child gameobject within a predetermined x-y coordinate range.
+* Once player presses [Tab] when cursor is over mail, _MailOpener.cs_ will instantiate a letter prefab with a randomized letter contents, sender name, and receiver name that pull from _MainDataset.cs_. 
 [**Assets > Sprites > Letter > Scripts > Generate**](https://github.com/KimHaAnhTran/DeadLetterOffice/tree/main/Assets/Sprites/Letter/Scripts/Generate) <br>
 _[MainDataset.cs](https://github.com/KimHaAnhTran/DeadLetterOffice/blob/main/Assets/Sprites/Letter/Scripts/Generate/MainDataset.cs)_ holds all data concerning letter contents, nations, provinces, names, and dialogues. <br>
 _[MailGenerator.cs](https://github.com/KimHaAnhTran/DeadLetterOffice/blob/main/Assets/Sprites/Letter/Scripts/Generate/MailGenerator.cs)_ handles all procedural mail and stamp generation. <br><br>
